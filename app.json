@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "userTable",
+    "slug": "userTable",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
