@@ -1,10 +1,19 @@
 {
   "expo": {
-    "name": "userTable",
+    "name": "User Table",
     "slug": "userTable",
     "version": "1.0.0",
+    "icon": "https://i.postimg.cc/htzDkg58/down-arrow.png",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android":{
+      "package": "boppotech.userTable",
+      "adaptiveIcon":{
+        "foregroundImage": "https://i.postimg.cc/htzDkg58/down-arrow.png",
+        "backgroundColor": "#FAFAFA"
+
+      }
+    }
   }
 }

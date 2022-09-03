@@ -2,12 +2,12 @@ import react from "react";
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { Title } from "react-native-paper";
 
-const ModelViews = ({ childern, title, onSubmit, cancelable, visible = false, onDismiss, submitText ="ok" }) => {
+const ModelViews = ({ children, title, onSubmit, cancelable, visible = false, onDismiss, submitText ="ok" }) => {
     
     return (
         <Modal
-        onDismiss={onDismiss}
         animationType="fade"
+        onDismiss={onDismiss}
         visible={visible}
         transparent={true}
         >
@@ -15,7 +15,7 @@ const ModelViews = ({ childern, title, onSubmit, cancelable, visible = false, on
                 <View style={styles.modalView}>
                     <Title style={styles.modalText}>{title}</Title>
                     <View>
-                        {childern}
+                        {children}
                     </View>
                     <View style={{ alignSelf: 'flex-end', alignItems: 'center', flexDirection: 'row' }}>
                         {

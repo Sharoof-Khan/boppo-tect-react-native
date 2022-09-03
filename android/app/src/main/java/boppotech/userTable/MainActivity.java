@@ -1,4 +1,4 @@
-package com.usertable;
+package boppotech.userTable;
 
 import android.os.Build;
 import android.os.Bundle;

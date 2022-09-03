@@ -1,4 +1,4 @@
-package com.usertable.newarchitecture;
+package boppotech.userTable.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.usertable.BuildConfig;
-import com.usertable.newarchitecture.components.MainComponentsRegistry;
-import com.usertable.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import boppotech.userTable.BuildConfig;
+import boppotech.userTable.newarchitecture.components.MainComponentsRegistry;
+import boppotech.userTable.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

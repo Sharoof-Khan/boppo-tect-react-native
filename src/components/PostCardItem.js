@@ -12,7 +12,7 @@ const Button = ({ onPress, style, icon }) => (
 )
 
 
-export default function PostCardItem({ firstName, lastName, age, phoneNumber, email, onEdit, onDelete }) {
+export default function PostCardItem({ firstName, lastName, age, phoneNumber, email,address, onEdit, onDelete }) {
     
     console.log(firstName, lastName,age, phoneNumber, email,'in Postcard');
     return (
@@ -24,10 +24,11 @@ export default function PostCardItem({ firstName, lastName, age, phoneNumber, em
                     <Text style={styles.title}>Age: { age}</Text>
                     <Text style={styles.title}>Email: { email}</Text>
                     <Text style={styles.title}>Phone No: { phoneNumber}</Text>
+                    <Text style={styles.title}>Address: { address}</Text>
                 </View>
                 <View style={styles.rowView}>
-                    <Button onPress={onEdit} icon="edit" style={{ marginHorizontal: 16 }} />
-                    <Button onPress = {onDelete} icon = 'trash-2' />
+                    <Button onPress={onEdit} icon="edit" style={{ marginHorizontal: 0 ,marginTop:-15}} />
+                    <Button onPress = {onDelete} icon = 'trash-2' style={{ marginHorizontal: 0 ,marginTop:-15}} />
 
                 </View>
 
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
     borderRadius: 8
   },
   title: {
-    fontSize: 18,
+    fontSize: 16,
+    // color:'red'
   },
 })
